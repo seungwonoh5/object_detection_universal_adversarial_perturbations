@@ -1,2 +1,4 @@
-# Adversarial_Attacks_on_Object_Detection
-Studying and analyzing the effects of adversarial attacks and defenses on the object detection task
+# Object Detection of Autonomous Vehicle-related Categories to Universal Adversarial Perturbations
+
+## Description
+Official implementation of our paper "Resilience of Autonomous Vehicle Object Category Detections to Universal Adversarial Perturbations" for both training and evaluation.
