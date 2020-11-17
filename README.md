@@ -7,13 +7,13 @@ Clone this repository by running
 
     git clone https://github.com/seungwonoh5/Universal_Autonomous_Detection
 
-You can experiment with the ReColorAdv attack, by itself and combined with other attacks, in the [`getting_started.ipynb`](getting_started.ipynb) Jupyter notebook. You can also open the notebook in Google Colab via the badge below.
+You can experiment with the ReColorAdv attack, by itself and combined with other attacks, in the [`getting_started.ipynb`](uap4det.ipynb) Jupyter notebook. You can also open the notebook in Google Colab via the badge below.
 
-[![Open In Colab](https://colab.research.google.com/drive/1g3O3ftovvTYCCGxB6XAw1mardoR25sG5?usp=sharing)
+[![Open In Colab]()
 
 You can also install the ReColorAdv package with pip by running
 
-    pip install recoloradv
+    pip install uap4det
 
 ## Citation
 If you find this repository useful for your research, please cite our paper as follows:
