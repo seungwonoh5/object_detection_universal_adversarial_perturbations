@@ -5,11 +5,11 @@ This is an implementation of projected gradient descent attack to create univers
 
 Clone this repository by running
 
-    git clone https://github.com/cassidylaidlaw/ReColorAdv
+    git clone https://github.com/seungwonoh5/Universal_Autonomous_Detection
 
 You can experiment with the ReColorAdv attack, by itself and combined with other attacks, in the [`getting_started.ipynb`](getting_started.ipynb) Jupyter notebook. You can also open the notebook in Google Colab via the badge below.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cassidylaidlaw/ReColorAdv/blob/master/getting_started_colab.ipynb)
+[![Open In Colab](https://colab.research.google.com/drive/1g3O3ftovvTYCCGxB6XAw1mardoR25sG5?usp=sharing)
 
 You can also install the ReColorAdv package with pip by running
 
