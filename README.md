@@ -5,7 +5,7 @@ This is an implementation of projected gradient descent attack to create univers
 
 Clone this repository by running
 
-    git clone https://github.com/seungwonoh5/Universal_Autonomous_Detection
+    git clone https://github.com/seungwonoh5/Universal_Adversarial_Perturbation_Detection
 
 You can experiment with the ReColorAdv attack, by itself and combined with other attacks, in the [`getting_started.ipynb`](uap4det.ipynb) Jupyter notebook. You can also open the notebook in Google Colab via the badge below.
 
