@@ -31,7 +31,9 @@ execute ```run.py ``` to choose an adversarial attack to attack an object detect
 We perform extensive experiments on six datasets sequentially streaming and we show that an online setting continuously updating the model as every data block is processed leads to significant improvements over various state of the art models compared to the batch learning method that the model is fixed after training on the initial dataset and deploying for prediction. Specifically, on large-scale datasets that generally prove difficult cases for incremental learning, our approach delivers absolute gains as high as 19.1% and 7.4% on datasets, respectively.
 
 If you find this code useful in your research, please consider citing:
+
 '''Mohammad Nayeem Teli, and Seungwon Oh. “Resilience of Autonomous Vehicle Object Category Detection
 to Universal Perturbations”, accepted to appear in the IEEE International IOT, Electronics, and Mechatronics (IEMTRONICS ’21) Conference'''
+
 
 Contact [aspiringtechsavvy@gmail.com](aspiringtechsavvy@gmail.com) to ask questions or report issues, please open an issue on the issues tracker. Discussions, suggestions and questions are welcome!
