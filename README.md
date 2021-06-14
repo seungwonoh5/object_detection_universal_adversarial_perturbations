@@ -1,5 +1,5 @@
 # Resilience of Autonomous Vehicle Object Category Detection to Universal Perturbations
-Official Pytorch implementation of our [paper](https://edas.info/showManuscript.php?type=paper&m=1570709428&ext=pdf&title=PDF+file), “Resilience of Autonomous Vehicle Object Category Detection to Universal Perturbations”, accepted to appear in the IEEE International IOT, Electronics, and Mechatronics (IEMTRONICS ’21) Conference.
+Official Pytorch implementation of our [paper](https://tinyurl.com/rb9bn76z), “Resilience of Autonomous Vehicle Object Category Detection to Universal Perturbations”, accepted to appear in the IEEE International IOT, Electronics, and Mechatronics (IEMTRONICS ’21) Conference.
 
 This project evaluates the adversarial robustness of the state-of-the-art object detectors in the autonomous driving context. Our adversarial attack is based on the implementation of a research paper 'Universal Adversarial Perturbations to Object Detection', which it uses a variant of a projected gradient descent attack to create universal adversarial perturbations on object detection. This experiment is conducted on a variety of datasets, mainly a subset of COCO2017 training with 5 autonomous driving-related categories: car, truck, people, stop sign, and traffic light.
 
