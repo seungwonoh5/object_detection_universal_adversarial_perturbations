@@ -3,15 +3,8 @@ Official Pytorch implementation of our [paper](https://tinyurl.com/rb9bn76z), â€
 
 This project evaluates the adversarial robustness of the state-of-the-art object detectors in the autonomous driving context. Our adversarial attack is based on the implementation of a research paper 'Universal Adversarial Perturbations to Object Detection', which it uses a variant of a projected gradient descent attack to create universal adversarial perturbations on object detection. This experiment is conducted on a variety of datasets, mainly a subset of COCO2017 training with 5 autonomous driving-related categories: car, truck, people, stop sign, and traffic light.
 
-## Getting Started
+## Installation
 Clone this repository by running `git clone https://github.com/seungwonoh5/Universal_Adversarial_Perturbation_Detection`
-
-## What's Included
-Inside the repo, there are mainly 3 scripts and 1 notebook file:
-* dataset.py: this script provides all the classes and methods related to loading and preprocessing the dataset for curation.
-* udos.py: this script provides the implementation of the adversarial attacks.
-* run.py: this script provides running the experiment with specific adversarial attacks, object detection model, and dataset.
-* plot_results.ipynb: this notebook visualizes the experimental results.
 
 ## Dependencies
 This code requires the following:
@@ -23,7 +16,14 @@ This code requires the following:
 
 run ```pip3 install -r requirements.txt``` to install all the dependencies.
 
-## Usage
+## What's Included
+Inside the repo, there are mainly 3 scripts and 1 notebook file:
+* dataset.py: this script provides all the classes and methods related to loading and preprocessing the dataset for curation.
+* udos.py: this script provides the implementation of the adversarial attacks.
+* run.py: this script provides running the experiment with specific adversarial attacks, object detection model, and dataset.
+* plot_results.ipynb: this notebook visualizes the experimental results.
+
+## Getting Started
 execute ```run.py ``` to choose an adversarial attack to attack an object detection model in the Detectron2 Library.
 
 ## Results
@@ -36,4 +36,5 @@ If you find this code useful in your research, please consider citing:
 """
 
 
-Contact [nayeem@umd.edu](nayeem@umd.edu) or [aspiringtechsavvy@gmail.com](aspiringtechsavvy@gmail.com) to ask questions or report issues, please open an issue on the issues tracker. Discussions, suggestions and questions are welcome!
+## Contact 
+[nayeem@umd.edu](nayeem@umd.edu) or [wonoh90@gmail.com](wonoh90@gmail.com) to ask questions or report issues, please open an issue on the issues tracker. Discussions, suggestions and questions are welcome!
