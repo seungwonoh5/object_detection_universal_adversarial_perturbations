@@ -1,10 +1,10 @@
 # Resilience of Autonomous Vehicle Object Category Detection to Universal Perturbations
-Official Pytorch implementation of our [paper](https://tinyurl.com/rb9bn76z), “Resilience of Autonomous Vehicle Object Category Detection to Universal Perturbations”, accepted to appear in the IEEE International IOT, Electronics, and Mechatronics (IEMTRONICS ’21) Conference.
+Official Pytorch implementation of our [paper](https://arxiv.org/pdf/2107.04749.pdf), “Resilience of Autonomous Vehicle Object Category Detection to Universal Perturbations”, accepted to appear in the IEEE International IOT, Electronics, and Mechatronics (IEMTRONICS ’21) Conference.
 
-This project evaluates the adversarial robustness of the state-of-the-art object detectors in the autonomous driving context. Our adversarial attack is based on the implementation of a research paper 'Universal Adversarial Perturbations to Object Detection', which it uses a variant of a projected gradient descent attack to create universal adversarial perturbations on object detection. This experiment is conducted on a variety of datasets, mainly a subset of COCO2017 training with 5 autonomous driving-related categories: car, truck, people, stop sign, and traffic light.
+This project evaluates the adversarial robustness of one of the state-of-the-art object detectors, Faster-RCNN, in the autonomous driving context. Our adversarial attack is based on the implementation of a research paper 'Universal Adversarial Perturbations to Object Detection', which it uses a variant of a projected gradient descent attack to create universal adversarial perturbations against object detection. This experiment is conducted on a variety of datasets, mainly a subset of COCO2017 training with 5 autonomous driving-related categories: car, truck, people, stop sign, and traffic light.
 
 ## Installation
-Clone this repository by running `git clone https://github.com/seungwonoh5/Universal_Adversarial_Perturbation_Detection`
+Clone this repository by running ```git clone https://github.com/seungwonoh5/Universal_Adversarial_Perturbation_Detection```
 
 ## Dependencies
 This code requires the following:
